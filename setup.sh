@@ -1,6 +1,8 @@
 #!/bin/sh
 export DEBIAN_FRONTEND=noninteractive
 
+chmod +x /run.sh
+
 apt-get update
 apt-get install -y tzdata
 
