@@ -3,7 +3,7 @@ FROM ubuntu:latest
 MAINTAINER Tobias Wiese
 
 ADD *.sh /
-RUN ["chmod", "+x", "*.sh"]
+RUN ["chmod", "+x", "/*.sh"]
 RUN /setup.sh
 
 ENV TZ=Europe/Berlin
