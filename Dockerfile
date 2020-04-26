@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 MAINTAINER Tobias Wiese
 
-ADD *.sh /
+ADD . /
 RUN ["chmod", "+x", "/*.sh"]
 RUN /setup.sh
 
