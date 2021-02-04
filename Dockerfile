@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 LABEL maintainer="Tobias Wiese [git@twiese99.de]"
 
-ADD . /
+ADD *.sh /
 RUN ["chmod", "+x", "/setup.sh"]
 RUN /setup.sh
 
