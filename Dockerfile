@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-LABEL maintainer="Tobias Wiese [hello@twhx.de]"
+LABEL maintainer="Tobias Wiese [git@twiese99.de]"
 
 ADD . /
 RUN ["chmod", "+x", "/setup.sh"]
